@@ -1,10 +1,10 @@
-name: 'Main'
+name: 'Build'
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
